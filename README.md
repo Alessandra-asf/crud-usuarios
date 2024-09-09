@@ -10,9 +10,7 @@ git clone https://github.com/Alessandra-asf/crud-usuarios.git
 cd crud-usuarios
 ```
 
-2. Instale o Live Server:
-
-Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+2. Instale o Live Server: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 3. Execute o index.html com live server.
 
