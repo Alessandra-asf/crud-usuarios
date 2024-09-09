@@ -1,0 +1,144 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #434343;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header button {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #7FC411;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.table-container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td i {
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.add-user-modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.733);
+    display: none;
+}
+
+.container-modal {
+    width: 80%;
+    max-width: 350px;
+    background: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.header-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-modal div {
+    color: white;
+    height: 24px;
+    width: 24px;
+    background-color: #FF4C28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container-modal form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.container-modal form input,
+.container-modal form select {
+    padding: 8px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.394);
+    outline: none;
+}
+
+.container-modal form button {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #7FC411;
+    border: none;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    align-self: center;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#status {
+    display: none;
+}
